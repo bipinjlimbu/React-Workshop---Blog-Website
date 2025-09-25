@@ -4,10 +4,10 @@ import './index.css'
 
 // import { RouterProvider } from 'react-router'
 // import routes from './routes.jsx'
-import { Navbar } from './components/navbar.jsx'
+import MainLayout from './layout/MainLayout.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar/>
+    <MainLayout/>
   </StrictMode>,
 )

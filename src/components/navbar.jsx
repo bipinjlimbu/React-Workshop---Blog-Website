@@ -5,8 +5,8 @@ export default function Navbar() {
 
         <header>
             <nav style={{display:"flex",gap:"20px",padding:"10px",}}>
-                <Link viewTransition to="/">HOme</Link>
-                <Link viewTransition to="/about">ABout</Link>
+                <Link viewTransition to="/">Home</Link>
+                <Link viewTransition to="/about">About</Link>
                 <Link viewTransition to="/blog">Blog</Link>
 
             </nav>

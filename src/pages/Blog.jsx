@@ -30,4 +30,4 @@ const Card=({item})=>{
         </Link>
     )
 }
-export default Product;
+export default Blog;

@@ -11,9 +11,9 @@ const Blog=()=>{
         getBlogData();
     },[]);
     return (
-        <div>
-            <h1>Product Page</h1>
-            <div >
+        <div className="blog-page">
+            <h1 className="blog-head">Product Page</h1>
+            <div className="blog-container">
                 {blogData.map((item)=><Card key={item.id} item={item}/>)}
             </div>
         </div>
@@ -22,10 +22,10 @@ const Blog=()=>{
 
 const Card=({item})=>{
     return (
-        <Link to={`/blog/${item.id}`} style={{textDecoration:"none",color:"black"}}>
-        <div>
-                    <h2> {item.title}</h2>
-                    <p>{item.body}</p>
+        <Link to={`/blog/${item.id}`} className="blog-link">
+        <div className="blog-card">
+                    <h2 className="bc-title"> {item.title}</h2>
+                    <p className="bc-details">{item.body}</p>
                 </div>
         </Link>
     )

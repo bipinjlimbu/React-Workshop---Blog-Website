@@ -13,3 +13,19 @@ body {
   background-color: #ffffff;
   color: #213547;
 }
+.header {
+  background-color: #213547;
+  padding: 1rem;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #61dafb;
+}

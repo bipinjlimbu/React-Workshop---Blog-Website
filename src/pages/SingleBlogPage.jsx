@@ -16,11 +16,11 @@ const SingleBlogPage=()=>{
     }
 
     return(
-        <div>
-            <h1>Single Product Page {JSON.stringify(params)}</h1>
-            <p>This is the detailed view of a single product.</p>
-            <button onClick={handleClick}>Navigate</button>
-            <div>
+        <div className="sb-page">
+            <h1 className="sb-head">Single Product Page {JSON.stringify(params)}</h1>
+            <p className="sb-details">This is the detailed view of a single product.</p>
+            <button onClick={handleClick} className="sb-button">Navigate</button>
+            <div className="sb-info">
             {
                 [1,2,3,4,5].map((item)=><p onClick={()=>handleParamsClick(item)} key={item}>{item}</p>)
             }

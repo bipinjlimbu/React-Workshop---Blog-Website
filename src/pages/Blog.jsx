@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router"
-const Product=()=>{
+import { Link } from "react-router-dom"
+const Blog=()=>{
     const [blogData,setBlogData]=useState([]);
     const getBlogData=async ()=>{
         const response=await fetch("https://jsonplaceholder.typicode.com/posts");

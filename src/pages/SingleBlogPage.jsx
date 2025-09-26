@@ -1,4 +1,4 @@
-import { useLocation, useNavigate, useParams, useSearchParams } from "react-router";
+import { useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
 const isLoginedIn=true;
 
 const SingleBlogPage=()=>{

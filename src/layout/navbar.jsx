@@ -1,10 +1,10 @@
-import { Link, Outlet } from "react-router";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
-    return (<>
-
+    return (
+    <>
         <header>
-            <nav style={{display:"flex",gap:"20px",padding:"10px",}}>
+            <nav>
                 <Link viewTransition to="/">Home</Link>
                 <Link viewTransition to="/about">About</Link>
                 <Link viewTransition to="/blog">Blog</Link>

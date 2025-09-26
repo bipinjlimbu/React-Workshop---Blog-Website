@@ -36,19 +36,19 @@ body {
 }
 
 /* Home Page */
-.home-page {
+.ha-page {
   text-align: center;
   padding: 2rem;
 }
-.homehead {
+.ha-head {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
-.homemid {
+.ha-mid {
   font-size: 1.25rem;
   margin-bottom: 2rem;
 }
-.homelink {
+.ha-link {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background-color: #213547;
@@ -56,7 +56,7 @@ body {
   text-decoration: none;
   border-radius: 4px;
 }
-.homelink:hover {
+.ha-link:hover {
   background-color: #61dafb;
   color: #213547;
 }

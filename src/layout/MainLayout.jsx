@@ -4,10 +4,10 @@ import Navbar from "./navbar";
 export default function MainLayout() {
     return (
         <>
-        <Navbar/>
-        <main>
-            <Outlet/>
-        </main>
+            <Navbar/>
+            <main>
+                <Outlet/>
+            </main>
         </>
     )
 }

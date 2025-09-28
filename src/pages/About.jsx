@@ -5,7 +5,7 @@ export default function About() {
         <div className="ha-page">
             <h1 className="ha-head">About Page</h1>
             <p className="ha-mid">This is the About Page.</p>
-            <Link viewTransition to="/" className="ha-link">Go to Home Page</Link>
+            <Link to="/" className="ha-link">Go to Home Page</Link>
         </div>
     )
 }
